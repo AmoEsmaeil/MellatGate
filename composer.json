@@ -8,11 +8,17 @@
 		"phpunit/phpunit" : "^7.0"
     },
     "license": "MIT",
+	"autoload": {
+        "psr-4": {
+            "almas\\mellat\\": "src"
+        }
+    }
     "authors": [
         {
             "name": "EsmaeilKarimian",
             "email": "karimian@almaseshomal.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+	"prefer-stable": true
 }

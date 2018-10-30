@@ -3,6 +3,7 @@
     "description": "Mellat GateWay",
     "type": "library",
     "require": {
+		"almas/mellat": "dev",
         "php": "^7.0",
         "illuminate/support": "^5.5",
 		"phpunit/phpunit" : "^7.0"
@@ -19,6 +20,5 @@
             "email": "karimian@almaseshomal.com"
         }
     ],
-    "minimum-stability": "dev",
-	"prefer-stable": true
+
 }

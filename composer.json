@@ -3,10 +3,10 @@
     "description": "Mellat GateWay",
     "type": "library",
     "require": {
-		"almas/mellat": "dev",
         "php": "^7.0",
         "illuminate/support": "^5.5",
-		"phpunit/phpunit" : "^7.0"
+		"phpunit/phpunit" : "^7.0",
+		"laravel/framework": "^5.5.*"
     },
     "license": "MIT",
 	"autoload": {
@@ -19,6 +19,7 @@
             "name": "EsmaeilKarimian",
             "email": "karimian@almaseshomal.com"
         }
-    ]
-
+    ],
+    "minimum-stability": "dev",
+	"prefer-stable": true
 }

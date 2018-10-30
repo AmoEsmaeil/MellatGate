@@ -3,20 +3,19 @@
 
     "name": "almas/mellat",
     "description": "Mellat GateWay",
-    "license": "GPL-2.0-only",
+    "license": "MIT",
     "authors": [
         {
             "name": "EsmaeilKarimian",
             "email": "karimian@almaseshomal.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": "^7.0",
-        "illuminate/support": "^5.5"
-    },
-    "require-dev": {
+        "illuminate/support": "^5.5",
         "phpunit/phpunit": "6.3.*"
+
     },
     "autoload": {
         "psr-4": {
